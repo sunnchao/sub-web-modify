@@ -3,6 +3,11 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'reason'
+        required: false
 
 jobs:
   build-and-push:
