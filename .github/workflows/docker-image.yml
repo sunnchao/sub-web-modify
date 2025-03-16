@@ -32,4 +32,4 @@ jobs:
         context: .
         platforms: linux/amd64,linux/arm,linux/arm64
         push: true
-        tags: youshandefeiyang/sub-web-modify:latest
+        tags: sunchaowang/sub-web-modify:latest
